@@ -115,3 +115,14 @@
     height: 316px;
     padding-right: 11px
 }
+.about-content{
+    position: relative;
+    height: 316px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 12px;
+    margin: 12px 100px;
+    border-left:  1px solid #219d83; 
+    border-right:  1px solid #219d83; 
+}
