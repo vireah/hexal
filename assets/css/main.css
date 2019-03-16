@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Yeseva One"; 
+    src: url(../fonts/YesevaOne-Regular_v2.otf); 
+   }
+   @font-face {
+    font-family: "Gentium Book Basic"; 
+    src: url(../fonts/GenBkBasR.ttf); 
+   }
+   @font-face {
+    font-family: "Lato"; 
+    src: url(../fonts/Lato-Regular.ttf); 
+   }
+   @font-face {
+    font-family: "Lato-Light"; 
+    src: url(../fonts/Lato-Light.ttf); 
+   }
+   @font-face {
+    font-family: "Open Sans"; 
+    src: url(../fonts/OpenSans-Regular.ttf); 
+   }
+   @font-face {
+    font-family: "MavenPro-Regular"; 
+    src: url(../fonts/MavenPro-Regular.ttf); 
+   }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+}
+
+
+h1 {
+    display: none;
+}
+.uppercase {
+    text-transform: uppercase;
+    margin: 0;
+}

@@ -1,0 +1,131 @@
+.down-bar {
+    width: 1021px;
+    height: 44px;
+    margin: 0 auto;
+    background-color: #222222;
+}
+.down-bar p {
+    font-size: 12px;
+    color: rgb(69,69,69);
+    font-family: "MavenPro-Regular";
+    text-align: left;
+    margin: 0;
+    padding-left: 38px;
+    padding-top: 13px;
+    letter-spacing: -0.1px;
+}
+
+.social {
+    width: 1021px;
+    height: 564px;
+    margin: 0 auto;
+    background-color: #313131;
+}
+.contact {
+    float: left;
+    padding-left: 120px;
+    padding-top: 75px;
+    letter-spacing: -0.4px;
+}
+.contact h5 {
+    font-size: 30px;
+    line-height: 5px;
+    color: rgb(224,224,224);
+    font-family: "MavenPro-Regular";
+    text-align: left;
+    margin: 0px;
+}
+.contact p {
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(190,190,190); 
+    font-family: "MavenPro-Regular"; 
+    text-align: left;
+    margin: 0px;
+    padding-top: 12px;
+    padding-left: 1px;
+    letter-spacing: 0px;
+}
+#name,#email,#comment,#subject{
+    max-width: 579px;
+    min-width: 579px;
+    height: 37px;
+    background-color: #454545;
+    border: 0px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    line-height: 21px;
+    color: rgb(190,190,190);
+    font-family: "Lato";
+    text-align: left;
+}
+
+form {
+    width: 579px;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+#comment {
+    width: 579px;
+    height: 149px;
+}
+
+#submit {
+    width: 90px;
+    height: 37px;
+    background-color: #2db397;
+    font-size: 12px;
+    line-height: 21px;
+    color: rgb(215,252,245);
+    font-family: "Lato";
+    font-weight: bold;
+    float: right;
+    border: 0px;
+    text-transform: uppercase;
+    
+}
+.info {
+    float: left;
+    width: 180px;
+    height: 330px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 116px;
+    letter-spacing: 0.37px;
+}
+.info p {
+    font-size: 12px;
+    line-height: 21.5px;
+    color: rgb(224,224,224);
+    font-family: "Lato-Light";
+}
+.bold {
+    font-family: "Lato";
+    font-weight: 800;
+}
+.info div {
+    width: 155px;
+    height: 54px;
+    font-size: 12px;
+    padding-top: 22px;
+    line-height: 22px;
+    color: rgb(190,190,190);
+    font-family: "Lato";
+    text-align: left;
+}
+
+.adress {
+    padding-left: 10px;
+    letter-spacing: 0px;
+    font-size: 12px;
+    padding-top: 22px;
+    line-height: 22px;
+    color: rgb(190,190,190);
+    font-family: "Lato";
+    text-align: left;
+}
+
+i {
+    color: #2eb398;
+}
