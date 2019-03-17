@@ -31,14 +31,7 @@ header {
 ul {
     padding: 0;
 }
-nav {
-    padding-top: 27px;
-    padding-left: 326px;
-    text-align: left;
-}
-nav a {
-    padding-right: 20px;
-}
+
  .test > a:nth-child(3) {
      padding-left: 115px; 
  }
@@ -51,7 +44,7 @@ nav a {
     text-decoration: none;
 }
 
-.header a:hover {
+.navigation a:hover {
     font-size: 10px;
     line-height: 6px;
     color: rgb(46,179,152);
@@ -60,21 +53,10 @@ nav a {
 }
 
 .navigation {
-    margin: 0;
-    padding-left: 0px;
-    float: left;
-    display: block;
-}
-.navigation li {
-    display: inline-block;
-    padding-left: 45px;
-}
-.ттnavigation a {
-    font-size: 10px;
-    line-height: 6px;
-    color: rgb(255,255,255);
-    font-family: "Lato";
-    font-weight: bold;
-    text-align: left;
-    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    padding-left: 16px;
 }
