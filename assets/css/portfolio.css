@@ -3,4 +3,47 @@
     height: 721px;
     margin: 0 auto;
     background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image1 {
+    padding-left: 100px;
+
+}
+.image2 {
+    
+}
+.image3 {
+    
+}
+.image4 {
+    
+}
+.image5 {
+    
+}
+.image6 {
+    
+}
+.image7 {
+    
+}
+.image8 {
+    
+}
+.image9 {
+    
+}
+.image10 {
+    padding-left: 100px;
+    
+}
+.image11 {
+    
+}
+.image12 {
+    
+}
+.image13 {
+    
 }
