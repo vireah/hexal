@@ -10,10 +10,8 @@
     position: relative;
     padding-top: 79px;
     margin-left: 10px;
-    border-bottom: 1px solid #e4e9eb;
     height: 564px;
     width: 1001px;
-    padding-bottom: 66px;
 }
 .image1 {
     padding-left: 100px;
@@ -97,6 +95,11 @@
 }
 .slider {
     display: flex;
+    max-width: 960px;
+    border-bottom: 1px solid #e4e9eb;
+    padding-bottom: 12px;
+    margin-left: 29px;
+    padding-top: 49px;
 }
 .slider div{
     height: 6px;
