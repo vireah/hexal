@@ -5,6 +5,9 @@ header {
     text-align: center;
     background: url('../images/headerBG.png');
 }
+.uhidden {
+    visibility: hidden;
+} 
 .logo {
     position: relative;
     width: 90px;
@@ -26,12 +29,9 @@ header {
     border-color: #323232 transparent transparent transparent;
     z-index: 2000;
 }
-
-
 ul {
     padding: 0;
 }
-
  .test > a:nth-child(3) {
      padding-left: 115px; 
  }
@@ -43,7 +43,6 @@ ul {
     font-family: "Lato";
     text-decoration: none;
 }
-
 .navigation a:hover {
     font-size: 10px;
     line-height: 6px;
@@ -51,12 +50,10 @@ ul {
     font-family: "Lato";
     text-transform: uppercase;
 }
-
 .navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
     max-width: 400px;
     margin: auto;
-    padding-left: 16px;
 }

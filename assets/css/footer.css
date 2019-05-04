@@ -14,7 +14,6 @@
     padding-top: 13px;
     letter-spacing: -0.1px;
 }
-
 .social {
     width: 1021px;
     height: 564px;
@@ -59,18 +58,15 @@
     font-family: "Lato";
     text-align: left;
 }
-
 form {
     width: 579px;
     padding-top: 20px;
     padding-left: 0px;
 }
-
 #comment {
     width: 579px;
     height: 149px;
 }
-
 #submit {
     width: 90px;
     height: 37px;
@@ -82,8 +78,7 @@ form {
     font-weight: bold;
     float: right;
     border: 0px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
 .info {
     float: left;
@@ -114,7 +109,9 @@ form {
     font-family: "Lato";
     text-align: left;
 }
-
+.info a {
+    text-decoration: none;
+}
 .adress {
     padding-left: 10px;
     letter-spacing: 0px;
@@ -125,7 +122,6 @@ form {
     font-family: "Lato";
     text-align: left;
 }
-
 i {
     color: #2eb398;
 }

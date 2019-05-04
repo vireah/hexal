@@ -28,11 +28,13 @@
                     <a href="#getInTouch">get in touch</a>
                 </div>
                 </nav>
+                <div class="uhidden"><h1>hexal</h1></div> 
             </header>         
         </section>
 
         <section id="portfolio" class="portfolio">
-                <div class="image1">
+                <div class="portfolio-images">
+                <div class="image1 images">
                     <div class="firstr">
                         <div class="secondr">
                             <div class="thirdr">
@@ -40,7 +42,7 @@
                         </div> 
                     </div>
                 </div>
-                <div class="image2">
+                <div class="image2 images">
                     <div class="firstr">
                         <div class="secondr">
                             <div class="thirdr">
@@ -48,7 +50,7 @@
                         </div> 
                     </div>
                 </div>
-                <div class="image3">
+                <div class="image3 images">
                         <div class="firstr">
                             <div class="secondr">
                                 <div class="thirdr">
@@ -56,7 +58,7 @@
                             </div> 
                         </div>
                     </div>
-                    <div class="image4">
+                    <div class="image4 images">
                             <div class="firstr">
                                 <div class="secondr">
                                     <div class="thirdr">
@@ -65,7 +67,7 @@
                             </div>
                         </div>
 
-                        <div class="image5">
+                        <div class="image5 images">
                                 <div class="firstr">
                                     <div class="secondr">
                                         <div class="thirdr">
@@ -73,7 +75,7 @@
                                     </div> 
                                 </div>
                             </div>
-                            <div class="image6">
+                            <div class="image6 images">
                                     <div class="firstr">
                                         <div class="secondr">
                                             <div class="thirdr">
@@ -81,7 +83,7 @@
                                         </div> 
                                     </div>
                                 </div>
-                                <div class="image7">
+                                <div class="image7 images">
                                         <div class="firstr">
                                             <div class="secondr">
                                                 <div class="thirdr">
@@ -89,7 +91,7 @@
                                             </div> 
                                         </div>
                                     </div>
-                                    <div class="image8">
+                                    <div class="image8 images">
                                             <div class="firstr">
                                                 <div class="secondr">
                                                     <div class="thirdr">
@@ -97,7 +99,7 @@
                                                 </div> 
                                             </div>
                                         </div>
-                                        <div class="image9">
+                                        <div class="image9 images">
                                                 <div class="firstr">
                                                     <div class="secondr">
                                                         <div class="thirdr">
@@ -105,7 +107,7 @@
                                                     </div> 
                                                 </div>
                                             </div>
-                                            <div class="image10">
+                                            <div class="image10 images">
                                                     <div class="firstr">
                                                         <div class="secondr">
                                                             <div class="thirdr">
@@ -113,7 +115,7 @@
                                                         </div> 
                                                     </div>
                                                 </div>
-                                                <div class="image11">
+                                                <div class="image11 images">
                                                         <div class="firstr">
                                                             <div class="secondr">
                                                                 <div class="thirdr">
@@ -121,7 +123,7 @@
                                                             </div> 
                                                         </div>
                                                     </div>
-                                                    <div class="image12">
+                                                    <div class="image12 images">
                                                             <div class="firstr">
                                                                 <div class="secondr">
                                                                     <div class="thirdr">
@@ -129,7 +131,7 @@
                                                                 </div> 
                                                             </div>
                                                         </div>
-                                                        <div class="image13">
+                                                        <div class="image13 images">
                                                                 <div class="firstr">
                                                                     <div class="secondr">
                                                                         <div class="thirdr">
@@ -137,17 +139,21 @@
                                                                     </div> 
                                                                 </div>
                                                             </div>
+                                                        
+            </div>
         </section>
 
         <section id="about" class="about">
             <div style="height:12px"></div>
 
             <div class="about-content">
-              
+                <div class="lines">
+
+                </div>
                 <div class="image">
                     <div class="firstr">
                         <div class="secondr">
-                            <div class="thirdr">
+                            <div class="third">
                             </div> 
                         </div> 
                     </div>
@@ -177,10 +183,10 @@
                 <h5>Get In Touch</h5>
                 <p>In order to get in touch use the contact form below:</p>
                 <form action="handler.php">
-                    <input placeholder="Name (Required)" name="name" id="name" title="Name" value="" type="text"><Br>
+                    <input placeholder="Name (Required)" name="name" id="name" title="Name" value="" type="text" required><Br>
                     <input placeholder="Email (Required)" name="email" id="email" title="Email" value=""  type="email" required>
-                    <input placeholder="Subject" name="subject" id="subject" title="subject" value="" type="text">
-                    <textarea placeholder="Write your message here..." name="comment" id="comment" title="Comment"  cols="5" rows="5"></textarea>
+                    <input placeholder="Subject" name="subject" id="subject" title="subject" value="" type="text" required>
+                    <textarea placeholder="Write your message here..." name="comment" id="comment" title="Comment"  cols="5" rows="5" required></textarea>
                     <input type="submit" id="submit" value="send">
                 </form>
             </div>
@@ -193,7 +199,7 @@
                 <div>
                     <i class="fas fa-map-marker-alt"></i><span class="adress"> Elm St. 14/05 Lost City</span> <br>
                     <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+3528 331 86 35" title="call me"><span class="adress">+3528 331 86 35</span></a> <br> 
-                    <i class="fas fa-envelope"></i><span class="adress">info@hexalcorp.com</span>
+                    <i class="fas fa-envelope"></i><a href="mailto:info@hexalcorp.com"><span class="adress">info@hexalcorp.com</span></a>
                 </div>
             </div>
         </section>
